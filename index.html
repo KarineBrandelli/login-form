@@ -7,12 +7,61 @@
     <title>Login Form</title>
 
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <main class="main-content">
+        <img class="logo" src="./assets/logo.svg" alt="Camping tent logo.">
+
+        <form class="form" action="#">
+            <section class="title-box">
+                <img class="login-icon" src="./assets/log-in.svg" alt="Login icon">
+                <h1 class="title">Faça seu login</h1>
+            </section>
+
+            <p class="info-form">Entre com suas informações de cadastro.</p>
+
+            <fieldset class="form-input-box">
+                <div class="email-box">
+                    <label class="label-email" for="email">Email</label>
+
+                    <div class="input-box-email">
+                        <img class="input-icon" src="./assets/mail.svg" alt="Email icon">
+                        <input type="email" id="email">
+                    </div>
+                </div>
+
+                <div class="password-box">
+                    <label class="label-password" for="password">Senha</label>
+
+                    <div class="input-box-password">
+                        <img class="input-icon" src="./assets/lock.svg" alt="">
+                        <input type="password" id="password">
+                        <img class="input-icon" src="./assets/eye.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="other-actions">
+                    <label class="remember-login" for="checkbox">
+                        <input type="checkbox" name="" id="checkbox">Lembre-me
+                    </label>
+
+                    <a class="forgot-password" href="#"><strong>Esqueci minha senha</strong></a>
+                </div>
+
+                <button class="button-login">Entrar</button>
+
+                <a class="no-have-account" href="#">Não tem uma conta? <strong>Registre-se</strong></a>
+            </fieldset>
+        </form>
+    </main>
+
+    <div class="image-container">
+        <img src="./assets/side-image.jpg" alt="Vacation car">
+    </div>
 </body>
 </html>
