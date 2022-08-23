@@ -4,58 +4,135 @@
     box-sizing: border-box;
 }
 
-/* :root {
-    --text-base: #afb6c2;
-    --text-title: #d4ccb6;
-    --background: #191816;
-    --form-background: #24221f;
-    --primary-color: #ffc632;
-} */
-
 body {
+    display: flex;
+
     width: 100%;
     height: 100vh;
-
-    display: flex;
 }
 
-.main-content {
-    background-color: aqua;
-    width: 60%;
-
-
+.logo {
+    margin: 2rem 0 0 2rem;
+    position: absolute;
 }
 
 .image-container img {
     height: 100%;
+    max-width: 100%;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60%;
+    background-color: #191816;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60%;
+    height: 65%;
+    border-radius: .8rem;
+    background-color: #24221f;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 65%;
 }
 
 .title-box {
     display: flex;
-    align-items:  center;
-    gap: .8rem
+    align-items: center;
 
+    padding-bottom: 1rem;
+    gap: .8rem;
 }
 
 .form h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    color: #d4ccb6;
 }
 
 .info-form {
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 1.5rem;
+    color: #afb6c2;
     font-size: 1rem;
+}
+
+.form-input-box {
+    border: none;
+}
+
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #afb6c2;
+    font-size: 1rem;
+    padding-left: .7rem;
+}
+
+.input-box-email input, .input-box-password input {
+    border-radius: .35rem;
+    border: none;
+    height: 3rem;
+    width: 100%;
 }
 
 .label-email, .label-password, .remember-login {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    color: #afb6c2;
+}
+
+.email-box, .password-box {
+    padding-bottom: 1.25rem;
 }
 
 .forgot-password, .no-have-account {
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     font-size: .9rem;
     color: #ffc632;
+}
+
+.other-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 1rem;
+}
+
+.remember-login {
+    display: flex;
+
+    gap: .5rem;
+}
+
+.button-login {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffc632;
+    color: #473404;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: .8rem;
+    border: none;
+    width: 100%;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
 }
 
 
