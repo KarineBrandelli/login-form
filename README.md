@@ -1,33 +1,24 @@
 <h1 align="center"> Login Form </h1>
 
-## Descrição
+<p align="center">
+  Uma aplicação web de um formulário de login desenvolvido com HTML e CSS.
+</p>
 
-A página representa uma página onde o usuário poderá fazer realizar seu login. Foi desenvolvido a partir do conhecimento obtido no programa Discover, disponível gratuitamente no site da [Rocketseat](https://www.rocketseat.com.br/).
+## Como acessar a página?
 
-## Tecnologias
+Você pode acessar a aplicação utilizando um computador, tablet ou celular clicando [nesse](https://karinebrandelli.github.io/login-form/) link.
 
-O projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML
-- CSS
-
-## Recursos adicionais 
-
-A fim de tornar o projeto mais acessível, o mesmo foi realizado com responsividade para todos os tamanhos de tela.
-
-## Layout
-
-<br>
+Se você quiser clonar o repositório em sua máquina, não é necessário fazer nenhum tipo de instalação para sua utilização.
 
 <p align="center">
-  <img src="./assets/modelo-figma.png">
-<p>
+  <img alt="App Layout" src="https://user-images.githubusercontent.com/108953489/215845776-02ac39c8-dca5-41f7-9c29-d2f94e0e7b08.png" width="80%">
+</p>
 
 Você pode visualizar o layout do projeto original clicando [aqui](<https://www.figma.com/file/SySOtDgZpnytV2DWtpqdiw/DD-%2F-Login-Form---CSS-(Copy)?node-id=216%3A2>).
 
-<hr>
+## Tecnologias utilizadas
 
-<h4 align="center"> 
-	🚧  em construção  🚧 <br>
-	ao finalizar os estudos sobre as próximas linguagens, o website será totalmente funcional.
-</h4>
+Tecnologias utilizadas e suas documentações:
+
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
